@@ -4,7 +4,6 @@ public class CreditCardBean {
 	
 	private String cardNumber;
 	private String securityNumber;
-	private String cardHolderName;
 	private String expirationDate;
 	
 	public String getCardNumber() {
@@ -18,12 +17,6 @@ public class CreditCardBean {
 	}
 	public void setSecurityNumber(String securityNumber) {
 		this.securityNumber = securityNumber;
-	}
-	public String getCardHolderName() {
-		return cardHolderName;
-	}
-	public void setCardHolderName(String cardHolderName) {
-		this.cardHolderName = cardHolderName;
 	}
 	public String getExpirationDate() {
 		return expirationDate;
